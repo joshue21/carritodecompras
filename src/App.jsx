@@ -6,7 +6,7 @@ function App() {
 	const [allProducts, setAllProducts] = useState([]);
 	const [total, setTotal] = useState(0);
 	const [countProducts, setCountProducts] = useState(0);
-	const [quantity, setQuantity] = useState([]);
+	const [apiProducts, setApiProducts] = useState([]);
 
 	return (
 		<>
